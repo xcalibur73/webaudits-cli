@@ -1,0 +1,46 @@
+{
+  "name": "webaudits",
+  "version": "1.0.0",
+  "description": "Lightweight forensic website audit CLI for Core Web Vitals, server TTFB, and Schema.org validation.",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "bin/",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "webaudits": "bin/webaudits.mjs"
+  },
+  "keywords": [
+    "web-performance",
+    "core-web-vitals",
+    "ttfb",
+    "lcp",
+    "cls",
+    "seo",
+    "audit",
+    "pagespeed",
+    "website-speed-test",
+    "schema-org",
+    "webaudits",
+    "performance-cli"
+  ],
+  "author": "Sadikeen Firoz <sfs@webaudits.pro> (https://webaudits.pro)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xcalibur73/webaudits-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xcalibur73/webaudits-cli/issues"
+  },
+  "homepage": "https://webaudits.pro",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node bin/webaudits.mjs https://webaudits.pro --json"
+  }
+}
